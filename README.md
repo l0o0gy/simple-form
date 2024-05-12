@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# simpleForm
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. you should make a folder for your components named `components`.
 
-## Available Scripts
+2. you should `create a folder for each component` you create
+inside of the components folder.
 
-In the project directory, you can run:
+3. you should create 3 components `(InputField,TextAreaField,HW)`.
 
-### `npm start`
+4. you should render your `HW` component inside of the App component.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+5. you should render the `InputField`, `TextAreaField` and a button of type submit inside a form
+element inside of the `HW` component to resemble the structure of the homework `(name,email,message)`.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+6. `InputField`, `TextAreaField` should have a label and a text input `(input,textarea)` element.
 
-### `npm test`
+7. you should declare your states for your component inside of the HW component and then pass them to the related components ie `value={state}` `setValue={setState}`.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+8. you should handle the displaying of your states and the state change inside of the component related to the state.
 
-### `npm run build`
+9. the props you should pass to your child components from the HW component are:
+   1. `InputField({ label, type, value, onChange,required })`
+   2. `TextAreaField({ label, value, onChange,required })`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+10. your input fields should all be `required`.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+11. when you click the submit button it should submit the form.
