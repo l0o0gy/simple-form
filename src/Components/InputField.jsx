@@ -1,7 +1,7 @@
 function InputFileld({label, type , value,onChange}){
     return (
         <div className="inputFileld">
-            <label>{label}</label>
+            <label>{label}</label><br/>
             <input
             type={type}
             value={value}

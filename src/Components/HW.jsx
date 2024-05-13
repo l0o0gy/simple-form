@@ -17,7 +17,7 @@ function HW() {
         );
     }
     return (
-        <form onSubmit={handleFormSubmit}>
+        <form onSubmit={handleFormSubmit} className="HW">
             <InputFileld
              label="Name"
              type ="text"

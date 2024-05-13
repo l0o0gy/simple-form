@@ -1,8 +1,8 @@
 import React from "react";
 function TextAreaFiled({label, value, onChange}){
     return (
-        <div className="inputFileld">
-            <label>{label}</label>
+        <div className="TextAreaFiled">
+            <label>{label}</label><br/>
             <textarea
             value={value}
             onChange={onChange}

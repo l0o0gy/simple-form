@@ -2,7 +2,7 @@ import './App.css';
 import HW from './Components/HW.jsx';
 function App() {
   return (
-    <div className="HW">
+    <div className="App">
       <HW/>
     </div>
   );
