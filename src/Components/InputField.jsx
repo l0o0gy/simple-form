@@ -6,6 +6,7 @@ function InputFileld({label, type , value,onChange}){
             type={type}
             value={value}
             onChange={onChange}
+            required
             />
         </div>
     )

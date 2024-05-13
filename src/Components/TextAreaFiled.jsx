@@ -6,6 +6,7 @@ function TextAreaFiled({label, value, onChange}){
             <textarea
             value={value}
             onChange={onChange}
+            required
             >
             </textarea>
         </div>

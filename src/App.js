@@ -3,7 +3,7 @@ import HW from './Components/HW.jsx';
 function App() {
   return (
     <div className="App">
-      <HW/>
+        <HW/>
     </div>
   );
 }

@@ -5,7 +5,7 @@ function HW() {
     const[name,setName]=useState("");
     const [email,setEmail]=useState("");
     const [message,setMessage]=useState("");
-    const handleFormSubmit = (e) => {
+    const handleForm = (e) => {
         e.preventDefault();
         console.log('Submitting:', { name, email, message });
       };
@@ -17,7 +17,7 @@ function HW() {
         );
     }
     return (
-        <form onSubmit={handleFormSubmit} className="HW">
+        <form onSubmit={handleForm} className="HW">
             <InputFileld
              label="Name"
              type ="text"
